@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1342727923986C1D00A922EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342727823986C1D00A922EE /* AppDelegate.swift */; };
+		1342727B23986C1D00A922EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342727A23986C1D00A922EE /* SceneDelegate.swift */; };
+		1342728023986C1D00A922EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1342727E23986C1D00A922EE /* Main.storyboard */; };
+		1342728223986C1F00A922EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1342728123986C1F00A922EE /* Assets.xcassets */; };
+		1342728523986C1F00A922EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1342728323986C1F00A922EE /* LaunchScreen.storyboard */; };
+		1342729023986C2000A922EE /* Parsing_JSON_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342728F23986C2000A922EE /* Parsing_JSON_LabTests.swift */; };
+		1342729B23987ABA00A922EE /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 1342729A23987ABA00A922EE /* Weather.json */; };
+		1342729D23988ACF00A922EE /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342729C23988ACF00A922EE /* WeatherData.swift */; };
+		1342729F2398924700A922EE /* WeatherBundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342729E2398924700A922EE /* WeatherBundle+Ext.swift */; };
+		134272A123996EAC00A922EE /* DetailWeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134272A023996EAC00A922EE /* DetailWeatherVC.swift */; };
+		1360820823997B2900117BCE /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1360820723997B2900117BCE /* WeatherViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1342728C23986C2000A922EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1342726D23986C1D00A922EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1342727423986C1D00A922EE;
+			remoteInfo = "Parsing JSON Lab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1342727523986C1D00A922EE /* Parsing JSON Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parsing JSON Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1342727823986C1D00A922EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1342727A23986C1D00A922EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1342727F23986C1D00A922EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1342728123986C1F00A922EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1342728423986C1F00A922EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1342728623986C1F00A922EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1342728B23986C2000A922EE /* Parsing JSON LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parsing JSON LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1342728F23986C2000A922EE /* Parsing_JSON_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing_JSON_LabTests.swift; sourceTree = "<group>"; };
+		1342729123986C2000A922EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1342729A23987ABA00A922EE /* Weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
+		1342729C23988ACF00A922EE /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		1342729E2398924700A922EE /* WeatherBundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherBundle+Ext.swift"; sourceTree = "<group>"; };
+		134272A023996EAC00A922EE /* DetailWeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeatherVC.swift; sourceTree = "<group>"; };
+		1360820723997B2900117BCE /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1342727223986C1D00A922EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1342728823986C2000A922EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1342726C23986C1D00A922EE = {
+			isa = PBXGroup;
+			children = (
+				1342727723986C1D00A922EE /* Parsing JSON Lab */,
+				1342728E23986C2000A922EE /* Parsing JSON LabTests */,
+				1342727623986C1D00A922EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1342727623986C1D00A922EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1342727523986C1D00A922EE /* Parsing JSON Lab.app */,
+				1342728B23986C2000A922EE /* Parsing JSON LabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1342727723986C1D00A922EE /* Parsing JSON Lab */ = {
+			isa = PBXGroup;
+			children = (
+				1342727823986C1D00A922EE /* AppDelegate.swift */,
+				1342727A23986C1D00A922EE /* SceneDelegate.swift */,
+				1360820723997B2900117BCE /* WeatherViewController.swift */,
+				134272A023996EAC00A922EE /* DetailWeatherVC.swift */,
+				1342729A23987ABA00A922EE /* Weather.json */,
+				1342729C23988ACF00A922EE /* WeatherData.swift */,
+				1342729E2398924700A922EE /* WeatherBundle+Ext.swift */,
+				1342727E23986C1D00A922EE /* Main.storyboard */,
+				1342728123986C1F00A922EE /* Assets.xcassets */,
+				1342728323986C1F00A922EE /* LaunchScreen.storyboard */,
+				1342728623986C1F00A922EE /* Info.plist */,
+			);
+			path = "Parsing JSON Lab";
+			sourceTree = "<group>";
+		};
+		1342728E23986C2000A922EE /* Parsing JSON LabTests */ = {
+			isa = PBXGroup;
+			children = (
+				1342728F23986C2000A922EE /* Parsing_JSON_LabTests.swift */,
+				1342729123986C2000A922EE /* Info.plist */,
+			);
+			path = "Parsing JSON LabTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1342727423986C1D00A922EE /* Parsing JSON Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1342729423986C2000A922EE /* Build configuration list for PBXNativeTarget "Parsing JSON Lab" */;
+			buildPhases = (
+				1342727123986C1D00A922EE /* Sources */,
+				1342727223986C1D00A922EE /* Frameworks */,
+				1342727323986C1D00A922EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parsing JSON Lab";
+			productName = "Parsing JSON Lab";
+			productReference = 1342727523986C1D00A922EE /* Parsing JSON Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1342728A23986C2000A922EE /* Parsing JSON LabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1342729723986C2000A922EE /* Build configuration list for PBXNativeTarget "Parsing JSON LabTests" */;
+			buildPhases = (
+				1342728723986C2000A922EE /* Sources */,
+				1342728823986C2000A922EE /* Frameworks */,
+				1342728923986C2000A922EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1342728D23986C2000A922EE /* PBXTargetDependency */,
+			);
+			name = "Parsing JSON LabTests";
+			productName = "Parsing JSON LabTests";
+			productReference = 1342728B23986C2000A922EE /* Parsing JSON LabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1342726D23986C1D00A922EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Christian Hurtado";
+				TargetAttributes = {
+					1342727423986C1D00A922EE = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					1342728A23986C2000A922EE = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 1342727423986C1D00A922EE;
+					};
+				};
+			};
+			buildConfigurationList = 1342727023986C1D00A922EE /* Build configuration list for PBXProject "Parsing JSON Lab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1342726C23986C1D00A922EE;
+			productRefGroup = 1342727623986C1D00A922EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1342727423986C1D00A922EE /* Parsing JSON Lab */,
+				1342728A23986C2000A922EE /* Parsing JSON LabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1342727323986C1D00A922EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1342729B23987ABA00A922EE /* Weather.json in Resources */,
+				1342728523986C1F00A922EE /* LaunchScreen.storyboard in Resources */,
+				1342728223986C1F00A922EE /* Assets.xcassets in Resources */,
+				1342728023986C1D00A922EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1342728923986C2000A922EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1342727123986C1D00A922EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1342727923986C1D00A922EE /* AppDelegate.swift in Sources */,
+				1360820823997B2900117BCE /* WeatherViewController.swift in Sources */,
+				1342729F2398924700A922EE /* WeatherBundle+Ext.swift in Sources */,
+				134272A123996EAC00A922EE /* DetailWeatherVC.swift in Sources */,
+				1342729D23988ACF00A922EE /* WeatherData.swift in Sources */,
+				1342727B23986C1D00A922EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1342728723986C2000A922EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1342729023986C2000A922EE /* Parsing_JSON_LabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1342728D23986C2000A922EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1342727423986C1D00A922EE /* Parsing JSON Lab */;
+			targetProxy = 1342728C23986C2000A922EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1342727E23986C1D00A922EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1342727F23986C1D00A922EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1342728323986C1F00A922EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1342728423986C1F00A922EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1342729223986C2000A922EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1342729323986C2000A922EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1342729523986C2000A922EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YYJ8TDUCW;
+				INFOPLIST_FILE = "Parsing JSON Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianhurtado.Parsing-JSON-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1342729623986C2000A922EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YYJ8TDUCW;
+				INFOPLIST_FILE = "Parsing JSON Lab/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianhurtado.Parsing-JSON-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1342729823986C2000A922EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YYJ8TDUCW;
+				INFOPLIST_FILE = "Parsing JSON LabTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianhurtado.Parsing-JSON-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON Lab.app/Parsing JSON Lab";
+			};
+			name = Debug;
+		};
+		1342729923986C2000A922EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YYJ8TDUCW;
+				INFOPLIST_FILE = "Parsing JSON LabTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianhurtado.Parsing-JSON-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing JSON Lab.app/Parsing JSON Lab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1342727023986C1D00A922EE /* Build configuration list for PBXProject "Parsing JSON Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1342729223986C2000A922EE /* Debug */,
+				1342729323986C2000A922EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1342729423986C2000A922EE /* Build configuration list for PBXNativeTarget "Parsing JSON Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1342729523986C2000A922EE /* Debug */,
+				1342729623986C2000A922EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1342729723986C2000A922EE /* Build configuration list for PBXNativeTarget "Parsing JSON LabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1342729823986C2000A922EE /* Debug */,
+				1342729923986C2000A922EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1342726D23986C1D00A922EE /* Project object */;
+}
