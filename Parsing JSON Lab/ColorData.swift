@@ -9,7 +9,7 @@
 import UIKit
 
 
-struct ColorsArray {
+struct ColorsData:Decodable {
     let colors: [Color]
 }
 
@@ -30,29 +30,27 @@ struct RGBVal: Decodable {
 }
 
 struct HexVal: Decodable {
-    let hex: Hex
-}
-
-struct Hex: Decodable {
     let value: String
     let clean: String
 }
+
 
 struct Name: Decodable {
     let value: String
 }
 
 
-//extension AllColors {
-//static func getColors() -> [Color] {
-//    var colors = [Color]()
-//    do {
-//        let data = Bundle.parseJSONData(filename: "Weather", ext: "json")
-//        let weatherData = try JSONDecoder().decode(WeatherData.self, from: data)
-//        citiesTemp = weatherData.list
-//    } catch {
-//        fatalError("\(error)")
-//    }
-//    return citiesTemp
-//}
-
+extension ColorsData {
+    
+static func getColors() -> [Color] {
+    var colors = [Color]()
+    do {
+        let data = Bundle.parseJSONData(filename: "Color", ext: "json")
+        let colorData = try JSONDecoder().decode(ColorsData.self, from: data)
+        colors = colorData.colors
+    } catch {
+        fatalError("\(error)")
+    }
+    return colors
+}
+}
