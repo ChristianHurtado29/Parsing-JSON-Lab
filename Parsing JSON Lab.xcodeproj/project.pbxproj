@@ -22,6 +22,8 @@
 		1360820D2399B3C700117BCE /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1360820C2399B3C700117BCE /* ColorData.swift */; };
 		1360820F2399C73500117BCE /* ColorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1360820E2399C73500117BCE /* ColorsVC.swift */; };
 		136082112399D3B300117BCE /* DetailColorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136082102399D3B300117BCE /* DetailColorsVC.swift */; };
+		13608214239A08B800117BCE /* RandomUser.Json in Resources */ = {isa = PBXBuildFile; fileRef = 13608213239A08B800117BCE /* RandomUser.Json */; };
+		13608216239A093B00117BCE /* RandomUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13608215239A093B00117BCE /* RandomUserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		1360820C2399B3C700117BCE /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
 		1360820E2399C73500117BCE /* ColorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsVC.swift; sourceTree = "<group>"; };
 		136082102399D3B300117BCE /* DetailColorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailColorsVC.swift; sourceTree = "<group>"; };
+		13608213239A08B800117BCE /* RandomUser.Json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RandomUser.Json; sourceTree = "<group>"; };
+		13608215239A093B00117BCE /* RandomUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,13 +102,12 @@
 				1342727823986C1D00A922EE /* AppDelegate.swift */,
 				1342727A23986C1D00A922EE /* SceneDelegate.swift */,
 				136082092399AD1B00117BCE /* Weather Files */,
+				13608212239A080200117BCE /* Color Files */,
 				1342727E23986C1D00A922EE /* Main.storyboard */,
+				13608213239A08B800117BCE /* RandomUser.Json */,
+				13608215239A093B00117BCE /* RandomUserData.swift */,
 				1342728123986C1F00A922EE /* Assets.xcassets */,
 				1342729E2398924700A922EE /* Bundle+Ext.swift */,
-				1360820A2399AF8200117BCE /* Color.json */,
-				1360820E2399C73500117BCE /* ColorsVC.swift */,
-				136082102399D3B300117BCE /* DetailColorsVC.swift */,
-				1360820C2399B3C700117BCE /* ColorData.swift */,
 				1342728323986C1F00A922EE /* LaunchScreen.storyboard */,
 				1342728623986C1F00A922EE /* Info.plist */,
 			);
@@ -129,6 +132,17 @@
 				1342729A23987ABA00A922EE /* Weather.json */,
 			);
 			path = "Weather Files";
+			sourceTree = "<group>";
+		};
+		13608212239A080200117BCE /* Color Files */ = {
+			isa = PBXGroup;
+			children = (
+				1360820E2399C73500117BCE /* ColorsVC.swift */,
+				136082102399D3B300117BCE /* DetailColorsVC.swift */,
+				1360820C2399B3C700117BCE /* ColorData.swift */,
+				1360820A2399AF8200117BCE /* Color.json */,
+			);
+			path = "Color Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +229,7 @@
 				1342729B23987ABA00A922EE /* Weather.json in Resources */,
 				1342728523986C1F00A922EE /* LaunchScreen.storyboard in Resources */,
 				1342728223986C1F00A922EE /* Assets.xcassets in Resources */,
+				13608214239A08B800117BCE /* RandomUser.Json in Resources */,
 				1360820B2399AF8200117BCE /* Color.json in Resources */,
 				1342728023986C1D00A922EE /* Main.storyboard in Resources */,
 			);
@@ -239,6 +254,7 @@
 				1342729F2398924700A922EE /* Bundle+Ext.swift in Sources */,
 				1360820D2399B3C700117BCE /* ColorData.swift in Sources */,
 				134272A123996EAC00A922EE /* DetailWeatherVC.swift in Sources */,
+				13608216239A093B00117BCE /* RandomUserData.swift in Sources */,
 				1342729D23988ACF00A922EE /* WeatherData.swift in Sources */,
 				1360820F2399C73500117BCE /* ColorsVC.swift in Sources */,
 				1342727B23986C1D00A922EE /* SceneDelegate.swift in Sources */,

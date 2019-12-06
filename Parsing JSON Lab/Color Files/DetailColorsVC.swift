@@ -24,6 +24,7 @@ class DetailColorsVC: UIViewController {
         let presentG = color.rgb.fraction.g * 100
         let presentB = color.rgb.fraction.b * 100
         
+        view.backgroundColor = .gray
         hexNum.text = color.hex.clean
         redVal.text = "R: \(Double(presentR).description)"
         redVal.textColor = .red
