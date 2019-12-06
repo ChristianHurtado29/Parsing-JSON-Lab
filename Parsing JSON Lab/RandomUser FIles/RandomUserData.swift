@@ -16,6 +16,7 @@ struct Information: Decodable {
     let gender: String
     let name: NameInfo
     let location: Location
+    let email: String
 }
 
 struct NameInfo: Decodable {
@@ -29,7 +30,28 @@ struct Location: Decodable {
     let city: String
     let state: String
     let country: String
-    let postcode: Int
+    let postcode: Postcode
+}
+
+enum Postcode: Decodable {
+    case int(Int)
+    case string(String) // associative values
+    
+    init(from decoder: Decoder) throws {
+        if let intValue = try? decoder.singleValueContainer().decode(Int.self) {
+            self = .int(intValue)
+            return
+        }
+        if let stringValue = try? decoder.singleValueContainer().decode(String.self) {
+            self = .string(stringValue)
+            return
+        }
+        throw AppError.missingValue
+    }
+}
+
+enum AppError: Error {
+    case missingValue
 }
 
 struct Street: Decodable {
