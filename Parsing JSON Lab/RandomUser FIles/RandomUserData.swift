@@ -17,6 +17,10 @@ struct Information: Decodable {
     let name: NameInfo
     let location: Location
     let email: String
+    let dob: Birth
+    let phone: String
+    let cell: String
+    let picture: Pic
 }
 
 struct NameInfo: Decodable {
@@ -31,6 +35,17 @@ struct Location: Decodable {
     let state: String
     let country: String
     let postcode: Postcode
+}
+
+struct Birth: Decodable {
+    let date: String
+    let age: Int
+}
+
+struct Pic: Decodable {
+    let large: String
+    let medium: String
+    let thumbnail: String
 }
 
 enum Postcode: Decodable {

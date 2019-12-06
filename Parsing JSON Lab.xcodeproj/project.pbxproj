@@ -17,6 +17,7 @@
 		1342729D23988ACF00A922EE /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342729C23988ACF00A922EE /* WeatherData.swift */; };
 		1342729F2398924700A922EE /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1342729E2398924700A922EE /* Bundle+Ext.swift */; };
 		134272A123996EAC00A922EE /* DetailWeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134272A023996EAC00A922EE /* DetailWeatherVC.swift */; };
+		135BB7AE239AE2AE00402B58 /* DetailRandomUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135BB7AD239AE2AE00402B58 /* DetailRandomUserVC.swift */; };
 		1360820823997B2900117BCE /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1360820723997B2900117BCE /* WeatherViewController.swift */; };
 		1360820B2399AF8200117BCE /* Color.json in Resources */ = {isa = PBXBuildFile; fileRef = 1360820A2399AF8200117BCE /* Color.json */; };
 		1360820D2399B3C700117BCE /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1360820C2399B3C700117BCE /* ColorData.swift */; };
@@ -52,6 +53,7 @@
 		1342729C23988ACF00A922EE /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		1342729E2398924700A922EE /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
 		134272A023996EAC00A922EE /* DetailWeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeatherVC.swift; sourceTree = "<group>"; };
+		135BB7AD239AE2AE00402B58 /* DetailRandomUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRandomUserVC.swift; sourceTree = "<group>"; };
 		1360820723997B2900117BCE /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		1360820A2399AF8200117BCE /* Color.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Color.json; sourceTree = "<group>"; };
 		1360820C2399B3C700117BCE /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				13608217239A0DCA00117BCE /* RandomUserVC.swift */,
+				135BB7AD239AE2AE00402B58 /* DetailRandomUserVC.swift */,
 				13608213239A08B800117BCE /* RandomUser.json */,
 				13608215239A093B00117BCE /* RandomUserData.swift */,
 			);
@@ -267,6 +270,7 @@
 				134272A123996EAC00A922EE /* DetailWeatherVC.swift in Sources */,
 				13608216239A093B00117BCE /* RandomUserData.swift in Sources */,
 				1342729D23988ACF00A922EE /* WeatherData.swift in Sources */,
+				135BB7AE239AE2AE00402B58 /* DetailRandomUserVC.swift in Sources */,
 				13608218239A0DCA00117BCE /* RandomUserVC.swift in Sources */,
 				1360820F2399C73500117BCE /* ColorsVC.swift in Sources */,
 				1342727B23986C1D00A922EE /* SceneDelegate.swift in Sources */,
